@@ -1,8 +1,3 @@
-This is the final, fully formatted, and polished README.md tailored exactly for your GitHub profile. It includes the structural breakdown, tech stack, and professional contact info.
-
-You can copy and paste the entire block below:
-
-Markdown
 # 🌊 Scalable Data Lake & Big Data Ecosystem
 
 This repository demonstrates a modern **Data Lake architecture** built using Python and the Hadoop ecosystem. It showcases the transition from traditional MapReduce processing to a multi-layered **Medallion Architecture** (Bronze, Silver, Gold) for scalable, high-performance data analytics.
