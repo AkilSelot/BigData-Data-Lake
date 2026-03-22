@@ -1,0 +1,5 @@
+transaction_id,product,quantity,price,date
+1,Laptop,1,1200,2026-03-01
+2,Mouse,2,25,2026-03-01
+3,Monitor,1,300,2026-03-02
+4,Keyboard,1,50,2026-03-02
