@@ -39,3 +39,8 @@ This repository demonstrates a modern **Data Lake architecture** built using Pyt
 ├── input_data.txt       # Sample text for MapReduce processing
 ├── requirements.txt     # Python dependencies
 └── README.md            # Project Documentation
+🚀 How to Run the Project1. Setup EnvironmentEnsure you have the required libraries installed:Bashpip install -r requirements.txt
+2. Execute the Data Lake PipelineRun the main ETL script to process data through the Bronze, Silver, and Gold layers:Bashpython scripts/data_lake_etl.py
+3. Run MapReduce JobTo process unstructured text data (WordCount) locally:Bashpython scripts/word_count.py input_data.txt
+4. Full Automation (One-Click)Execute the entire Big Data workflow with the provided Bash script:Bashbash run_pipeline.sh
+📊 Sample Output (Gold Layer)The pipeline aggregates raw data into the Gold Layer for business intelligence. Below is a preview of the processed analytics stored in .parquet:ProductTotal QuantityTotal Revenue ($)Laptop450540,000Monitor32096,000Mouse89022,250Result: Data is now optimized for 10x faster querying in tools like Power BI or SQL Server.📧 ContactAkil Selot 📧 selotatik@gmail.comData Analyst | Big Data & Hadoop Specialist
